@@ -14,6 +14,8 @@ Alternatively, you can use cargo/rustc to run the code.
 cargo build
 cargo test
 ```
+
+The test automatically runs code for various grpahs that are shown in the paper. The enviroment variables, `NUM_SERVERS`, `NUM_CLIENTS`, `NUM_CONSTRAINTS` can be set to run the code for a specific instance. The circuits can be programmed in R1CS as specified in Marlin code. Refer to the code for an example. 
 ## License
 
 This library is licensed under either of the following licenses, at your discretion.
